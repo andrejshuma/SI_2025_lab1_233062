@@ -37,6 +37,9 @@ class Task {
         return category;
     }
 
+	public removeByName(String name){
+	tasks.find(name).remove()
+}
     @Override
     public String toString() {
         return name + " [" + category + "] - Priority: " + priority + (isCompleted ? " [Completed]" : " [Pending]");
