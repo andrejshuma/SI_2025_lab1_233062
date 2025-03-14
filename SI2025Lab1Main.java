@@ -33,6 +33,13 @@ class Task {
         return isCompleted;
     }
 
+public void findAllCompletedTasks{
+	for i in tasks:
+	if i isCompleted counter +=1
+
+	return counter == num
+}
+
     public Priority getPriority() {
         return priority;
     }
