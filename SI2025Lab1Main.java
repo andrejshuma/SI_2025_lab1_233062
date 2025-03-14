@@ -17,6 +17,10 @@ class Task {
         this.isCompleted = false;
     }
 
+	public void filterByCategory{
+	filter funkcionalnost bla bla
+}
+
     public void complete() {
         this.isCompleted = true;
     }
